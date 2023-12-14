@@ -65,9 +65,10 @@ RUN true \
         sshpass \
         openssh-client \
 	# sqlite and spatialite
-	sqlite3 \
 	binutils libproj-dev gdal-bin \
-	libsqlite3-mod-spatialite
+	sqlite3 \
+	libsqlite3-mod-spatialite \
+	libspatialite7
 
 # Configure postgres.
 RUN true \
